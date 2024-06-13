@@ -1,0 +1,5 @@
+<form method="post" enctype="multipart/formdata">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Update Profile</button>
+</form>
